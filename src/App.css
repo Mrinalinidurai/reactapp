@@ -1,0 +1,50 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add colorful background */
+body {
+  background-image: linear-gradient(to bottom, #64b5f6, #2196f3);
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.shopping-cart {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
